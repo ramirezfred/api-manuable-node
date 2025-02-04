@@ -7,14 +7,14 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 //Produccion
-// const api_url = "http://ec2-34-209-178-62.us-west-2.compute.amazonaws.com:4000/api";
-// const api_email = "Usielleonfacturas@gmail.com";
-// const api_password = "9JqsAy%85'2^*8a_5";
+const api_url = "http://ec2-34-209-178-62.us-west-2.compute.amazonaws.com:4000/api";
+const api_email = "Usielleonfacturas@gmail.com";
+const api_password = "9JqsAy%85'2^*8a_5";
 
 //Pruebas
-const api_url = "http://ec2-54-188-18-143.us-west-2.compute.amazonaws.com:4000/api";
-const api_email = "Usielleonfacturas@gmail.com";
-const api_password = "6sa452_{14N6";
+// const api_url = "http://ec2-54-188-18-143.us-west-2.compute.amazonaws.com:4000/api";
+// const api_email = "Usielleonfacturas@gmail.com";
+// const api_password = "6sa452_{14N6";
 
 // Middleware
 app.use(cors());
